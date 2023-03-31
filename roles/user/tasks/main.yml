@@ -1,0 +1,12 @@
+---
+- name: hostname
+  hostname:
+      name: vingadores
+
+- name: creat user
+  user: 
+     name: homem-aranha
+     shell: /bin/bash
+     password: "{{ password }}"
+     createhome: yes
+...

@@ -1,0 +1,7 @@
+---
+- name: instalando nginx
+  apt:
+    name: nginx
+
+- name: copiando site.html
+  template: src=site.html dest=/var/www/html
