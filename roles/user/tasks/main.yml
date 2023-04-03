@@ -7,6 +7,5 @@
   user: 
      name: homem-aranha
      shell: /bin/bash
-     password: "{{ password }}"
      createhome: yes
 ...
